@@ -1,42 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Projects</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      /* Simple CSS for styling */
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-      .project {
-        border: 1px solid #ddd;
-        padding: 15px;
-        margin-bottom: 20px;
-        border-radius: 5px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>My Coding Projects</h1>
-    
-    <!-- Project 1 -->
-    <div class="project">
-      <h2>Project 1: Calculator</h2>
-      <p>A simple calculator app built with JavaScript.</p>
-      <a href="https://github.com/yourusername/calculator">GitHub Repo</a>
-    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ableton-Style Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Use Ableton's actual font (requires license) or similar alternative -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="ableton-nav">
+        <div class="nav-left">
+            <div class="logo">Live</div>
+            <div class="nav-item">File</div>
+            <div class="nav-item">View</div>
+            <div class="nav-item">Help</div>
+        </div>
+    </nav>
 
-    <!-- Project 2 -->
-    <div class="project">
-      <h2>Project 2: Weather App</h2>
-      <p>Fetches weather data using an API.</p>
-      <a href="https://github.com/yourusername/weather-app">GitHub Repo</a>
-    </div>
+    <main class="ableton-container">
+        <h1 class="ableton-title">My Projects</h1>
+        
+        <!-- Project Card -->
+        <div class="ableton-panel">
+            <div class="panel-header">
+                <span class="panel-title">Project 1: Audio Visualizer</span>
+                <div class="panel-controls">
+                    <div class="control-dot red"></div>
+                    <div class="control-dot yellow"></div>
+                    <div class="control-dot green"></div>
+                </div>
+            </div>
+            <div class="panel-content">
+                <p>Real-time WebAudio API visualization tool</p>
+                <a href="#" class="ableton-button">View Project →</a>
+            </div>
+        </div>
 
-    <!-- Add more projects here -->
-  </body>
+        <!-- Add more project panels -->
+    </main>
+</body>
 </html>
