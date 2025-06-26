@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>drmd_lydn</title>
+    <title>drmd_lydn - Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,23 +12,106 @@
         <div class="nav-left">
             <div class="logo">drmd_lydn</div>
         </div>
+        <div class="nav-right">
+            <a href="index.html" class="nav-item">Projects</a>
+        </div>
     </nav>
 
-    <div class="ableton-container">
-        <h1 class="ableton-title">Portfolio</h1>
-        
+    <section class="splash-section">
+        <video class="splash-video" autoplay muted loop playsinline>
+            <source src="assets/videos/splash-showreel.mp4" type="video/mp4">
+            <source src="assets/videos/splash-showreel.webm" type="video/webm">
+        </video>
+        <div class="splash-overlay">
+            <div class="splash-content">
+                <h1>Diarmuid Layden</h1>
+                <p class="splash-subtitle">Artist, Designer & Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container">
+        <h2 class="section-title">About</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a sound desginer, musician and technology enthusiast working in all things digital audio. </p>
+                <p>With a background in both music technology and computer science, I bring a unique perspective to projects, combining technical expertise with creative vision.</p>
+            </div>
+            <div class="about-image">
+                <img src="assets\images\headshot 2025.jpg" alt="Diarmuid Layden">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Audio</h3>
+                <ul>
+                    <li>Sound Design</li>
+                    <li>Music Composition</li>
+                    <li>Mixing & Mastering</li>
+                    <li>Audio Restoration</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Development</h3>
+                <ul>
+                    <li>Audio Programming</li>
+                    <li>OSC</li>
+                    <li>Max/MSP</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Software</h3>
+                <ul>
+                    <li>Ableton Live</li>
+                    <li>Pro Tools</li>
+                    <li>Reaper</li>
+                    <li>Izotope RX</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-columns">
+            <div class="resume-column">
+                <h3>Professional Experience</h3>
+                <div class="resume-item">
+                    <h4>SFX & Composition</h4>
+                    <p class="resume-meta">Zenland Games | 2024</p>
+                    <p>Created music & sound effects for the game Ekoh Beach, released in 2025.</p>
+                <div class="resume-item">
+                    <h4>Live Sound Engineer & Event Technician</h4>
+                    <p class="resume-meta">Freelance | Present</p>
+                    <p>I work in events of all size around Limerick City & surrounding areas. This includes corporate functions, weddings and concerts.</p>
+                </div>
+            </div>
+            <div class="resume-column">
+                <h3>Education</h3>
+                <div class="resume-item">
+                    <h4>1st Class Honors - (BSC) Music Production and Technology (L8) </h4>
+                    <p class="resume-meta">Technological University of the Shannon | 2021-2025</p>
+                    <p>Specialized in audio programming and sound design, ran multiple events and partook in the graduate portfolio available at https://www.LSADGraduate.ie </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container">
+        <h2 class="section-title">Portfolio</h2>
         <div class="portfolio-grid">
-            <!-- Portfolio Item 1 -->
             <div class="portfolio-item">
                 <div class="video-container">
-                    <iframe src="https://player.vimeo.com/video/1082210138?h=676ff5a9d3&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Startup Window - Sound Art with Visuals, Diarmuid Layden"></iframe>"
-                            frameborder="0" 
-                            allow="autoplay; fullscreen" 
-                            allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/1082210138?h=676ff5a9d3" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="portfolio-info">
                     <h3 class="portfolio-title">Startup Window</h3>
-                    <p class="portfolio-description">Creative sound desgin and composition is used to create a surreal and intrusive impressionist piece based on the graphic design languages of early 2000's home computers.</p>
+                    <p class="portfolio-description">Creative sound design and composition is used to create a surreal and intrusive impressionist piece.</p>
                     <div class="portfolio-tags">
                         <span class="portfolio-tag">Music</span>
                         <span class="portfolio-tag">Sound Design</span>
@@ -37,9 +120,68 @@
                 </div>
             </div>
 
-            <!-- Add more portfolio items as needed -->
+            <!-- Insert new portfolio items here -->
+            <div class="portfolio-item">
+                <div class="video-container">
+                    <iframe src="https://player.vimeo.com/video/1083447298?h=0ed5154be3" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="portfolio-info">
+                    <h3 class="portfolio-title">Stepping On My Own Foot - Aoife Rhatigan</h3>
+                    <p class="portfolio-description">Music and Sound design for the 2025 Lighthouse Award 2D Animation Winner, displayed as a looping installation piece.</p>
+                    <div class="portfolio-tags">
+                        <span class="portfolio-tag">Music</span>
+                        <span class="portfolio-tag">Sound Design</span>
+                        <span class="portfolio-tag">Installation</span>
+                        <span class="portfolio-tag">2025</span>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item steam-item">
+                <div class="video-container steam-embed">
+                    <iframe src="https://store.steampowered.com/widget/1725270/Ekoh_Beach" frameborder="0" width="100%" height="190"></iframe>
+                </div>
+                <div class="portfolio-info">
+                    <h3 class="portfolio-title">Game Title</h3>
+                    <p class="portfolio-description">Your role and contributions to the game. Sound design, music implementation, etc.</p>
+                    <div class="portfolio-tags">
+                        <span class="portfolio-tag">Game Audio</span>
+                        <span class="portfolio-tag">Music</span>
+                        <span class="portfolio-tag">Sound Design</span>
+                        <span class="portfolio-tag">2024</span>
+                    </div>
+                    <a href="https://store.steampowered.com/app/1725270/Ekoh_Beach" class="ableton-button" target="_blank">View on Steam</a>
+                </div>
+            </div>
         </div>
-    </div>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4APBJ4HWWewTlLVWxPbnYF?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+
+    <section class="section-container">
+        <h2 class="section-title">Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <h3>Sound Design</h3>
+                <p>Custom sound effects and audio assets for media projects.</p>
+            </div>
+            <div class="service-item">
+                <h3>Audio Development</h3>
+                <p>Custom audio tools and plugins for your workflow.</p>
+            </div>
+            <div class="service-item">
+                <h3>Music Production</h3>
+                <p>Original music composition and production.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+            <p>Interested in working together? Get in touch!</p>
+            <div class="contact-links">
+                <a href="mailto:your@email.com" class="ableton-button">Email Me</a>
+                <a href="https://linkedin.com/in/yourprofile" class="ableton-button">LinkedIn</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
