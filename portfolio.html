@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>drmd_lydn - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -34,11 +34,12 @@
         <h2 class="section-title">About</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>I'm a sound desginer, musician and technology enthusiast working in all things digital audio. </p>
+                <p>Hey, I'm Diarmuid! I'm a sound designer, musician and technology enthusiast working in all things digital audio.</p>
+                <p></p>
                 <p>With a background in both music technology and computer science, I bring a unique perspective to projects, combining technical expertise with creative vision.</p>
             </div>
             <div class="about-image">
-                <img src="assets\images\headshot 2025.jpg" alt="Diarmuid Layden">
+                <img src="assets/images/headshot 2025.jpg" alt="Diarmuid Layden">
             </div>
         </div>
     </section>
@@ -58,10 +59,10 @@
             <div class="skill-category">
                 <h3>Development</h3>
                 <ul>
-                    <li>Audio Programming</li>
+                    <li>FFMpeg</li>
                     <li>OSC</li>
                     <li>Max/MSP</li>
-                    <li>Python</li>
+                    <li>FMOD</li>
                 </ul>
             </div>
             <div class="skill-category">
@@ -77,34 +78,38 @@
     </section>
 
     <section class="section-container">
-        <h2 class="section-title">Resume</h2>
-        <div class="resume-columns">
-            <div class="resume-column">
-                <h3>Professional Experience</h3>
-                <div class="resume-item">
-                    <h4>SFX & Composition</h4>
-                    <p class="resume-meta">Zenland Games | 2024</p>
-                    <p>Created music & sound effects for the game Ekoh Beach, released in 2025.</p>
-                <div class="resume-item">
-                    <h4>Live Sound Engineer & Event Technician</h4>
-                    <p class="resume-meta">Freelance | Present</p>
-                    <p>I work in events of all size around Limerick City & surrounding areas. This includes corporate functions, weddings and concerts.</p>
+        <h2 class="section-title">Curriculum Vitae</h2>
+        <div class="resume-section">
+            <div class="resume-columns">
+                <div class="resume-column">
+                    <h3>Professional Experience</h3>
+                    <div class="resume-item">
+                        <h4>SFX & Composition</h4>
+                        <p class="resume-meta">Zenland Games | 2024</p>
+                        <p>Created music & sound effects for the game Ekoh Beach, released in 2025.</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Live Sound Engineer & Event Technician</h4>
+                        <p class="resume-meta">Freelance | Present</p>
+                        <p>I work in events of all sizes around Limerick City & surrounding areas. This includes corporate functions, weddings and concerts.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="resume-column">
-                <h3>Education</h3>
-                <div class="resume-item">
-                    <h4>1st Class Honors - (BSC) Music Production and Technology (L8) </h4>
-                    <p class="resume-meta">Technological University of the Shannon | 2021-2025</p>
-                    <p>Specialized in audio programming and sound design, ran multiple events and partook in the graduate portfolio available at https://www.LSADGraduate.ie </p>
+                <div class="resume-column">
+                    <h3>Education</h3>
+                    <div class="resume-item">
+                        <h4>1st Class Honors - (BSC) Music Production and Technology (L8)</h4>
+                        <p class="resume-meta">Technological University of the Shannon | 2021-2025</p>
+                        <p>Specialized in audio programming and sound design, ran multiple events and partook in the graduate portfolio available at the <a href="https://www.LSADGraduates.ie" target="_blank" class="ableton-button" style="display: inline; padding: 2px 8px; font-size: 0.8rem;">LSAD Graduate Website</a></p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section-container">
+     <section class="section-container">
         <h2 class="section-title">Portfolio</h2>
         <div class="portfolio-grid">
+            <!-- First 3 items visible by default -->
             <div class="portfolio-item">
                 <div class="video-container">
                     <iframe src="https://player.vimeo.com/video/1082210138?h=676ff5a9d3" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
@@ -120,7 +125,6 @@
                 </div>
             </div>
 
-            <!-- Insert new portfolio items here -->
             <div class="portfolio-item">
                 <div class="video-container">
                     <iframe src="https://player.vimeo.com/video/1083447298?h=0ed5154be3" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
@@ -136,24 +140,108 @@
                     </div>
                 </div>
             </div>
+
             <div class="portfolio-item steam-item">
                 <div class="video-container steam-embed">
                     <iframe src="https://store.steampowered.com/widget/1725270/Ekoh_Beach" frameborder="0" width="100%" height="190"></iframe>
                 </div>
                 <div class="portfolio-info">
-                    <h3 class="portfolio-title">Game Title</h3>
-                    <p class="portfolio-description">Your role and contributions to the game. Sound design, music implementation, etc.</p>
+                    <h3 class="portfolio-title">Ekoh Beach</h3>
+                    <p class="portfolio-description">Created SFX & music for this indie game released in 2025.</p>
                     <div class="portfolio-tags">
                         <span class="portfolio-tag">Game Audio</span>
                         <span class="portfolio-tag">Music</span>
                         <span class="portfolio-tag">Sound Design</span>
-                        <span class="portfolio-tag">2024</span>
+                        <span class="portfolio-tag">2025</span>
                     </div>
                     <a href="https://store.steampowered.com/app/1725270/Ekoh_Beach" class="ableton-button" target="_blank">View on Steam</a>
                 </div>
             </div>
+
+            <!-- Additional items with fade-in capability -->
+            <!-- Replace these 3 hidden items with the new content -->
+<div class="portfolio-item hidden">
+    <div class="video-container">
+        <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1146900037/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://drmd.bandcamp.com/album/kylekiproe">kylekiproe by Diarmuid Layden</a></iframe>
+    </div>
+    <div class="portfolio-info">
+        <h3 class="portfolio-title">Kylekiproe</h3>
+        <p class="portfolio-description">Experimental electronic EP exploring modular glitch textures and ambient soundscapes.</p>
+        <div class="portfolio-tags">
+            <span class="portfolio-tag">Music</span>
+            <span class="portfolio-tag">Experimental</span>
+            <span class="portfolio-tag">2023</span>
+        </div>
+        <a href="https://drmd.bandcamp.com/album/kylekiproe" class="ableton-button" target="_blank">View on Bandcamp</a>
+    </div>
+</div>
+
+<div class="portfolio-item hidden">
+    <div class="video-container">
+       <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1693366608&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/999di" title="Dí" target="_blank" style="color: #cccccc; text-decoration: none;">Dí</a> · <a href="https://soundcloud.com/999di/sets/kinetic-samples" title="Kinetic Samples" target="_blank" style="color: #cccccc; text-decoration: none;">Kinetic Samples</a></div>
+    </div>
+    <div class="portfolio-info">
+        <h3 class="portfolio-title">Kinetic Samples</h3>
+        <p class="portfolio-description">Some samples of my Modular soundscapes created soley using VCV Rack 2.</p>
+        <div class="portfolio-tags">
+            <span class="portfolio-tag">Soundscapes</span>
+            <span class="portfolio-tag">Modular</span>
+            <span class="portfolio-tag">2022</span>
+        </div>
+        <a href="https://soundcloud.com/999di/sets/kinetic-samples" class="ableton-button" target="_blank">View on SoundCloud</a>
+    </div>
+</div>
+
+<div class="portfolio-item hidden">
+    <div class="video-container">
+        <img src="assets/images/your-image-here.jpg" alt="Project Image" style="width:100%; height:auto;">
+    </div>
+    <div class="portfolio-info">
+        <h3 class="portfolio-title">Project Title</h3>
+        <p class="portfolio-description">Brief description of your project goes here.</p>
+        <div class="portfolio-tags">
+            <span class="portfolio-tag">Category</span>
+            <span class="portfolio-tag">Year</span>
+        </div>
+        <a href="#" class="ableton-button" target="_blank">View Project</a>
+    </div>
+</div>
+        
+        <div class="view-more-container">
+            <button id="view-more-btn" class="ableton-button">View More Projects</button>
         </div>
     </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const viewMoreBtn = document.getElementById('view-more-btn');
+            const hiddenItems = document.querySelectorAll('.portfolio-item.hidden');
+            let showingAll = false;
+            
+            viewMoreBtn.addEventListener('click', function() {
+                // Toggle revealed class for smooth fade-in
+                hiddenItems.forEach(item => {
+                    if (showingAll) {
+                        // When hiding, remove revealed class after transition
+                        item.classList.remove('revealed');
+                        setTimeout(() => {
+                            item.classList.add('hidden');
+                        }, 500); // Match the transition duration
+                    } else {
+                        // When showing, add revealed class
+                        item.classList.remove('hidden');
+                        // Trigger reflow to enable animation
+                        void item.offsetWidth;
+                        item.classList.add('revealed');
+                    }
+                });
+                
+                // Update button text
+                showingAll = !showingAll;
+                viewMoreBtn.textContent = showingAll ? 'Show Less' : 'View More Projects';
+            });
+        });
+    </script>
 
     <section class="section-container">
         <h2 class="section-title">Services</h2>
@@ -178,8 +266,8 @@
         <div class="contact-content">
             <p>Interested in working together? Get in touch!</p>
             <div class="contact-links">
-                <a href="mailto:your@email.com" class="ableton-button">Email Me</a>
-                <a href="https://linkedin.com/in/yourprofile" class="ableton-button">LinkedIn</a>
+                <a href="mailto:diarmuidlayden@pm.me" class="ableton-button">Email Me</a>
+                <a href="https://www.linkedin.com/in/diarmuid-layden-18bb33234/" class="ableton-button">LinkedIn</a>
             </div>
         </div>
     </section>
